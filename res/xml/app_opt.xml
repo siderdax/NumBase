@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <PreferenceCategory android:title="기본 설정">
+        <CheckBoxPreference android:title="진동 설정" android:summary="진동 켬/끔" android:key="vib_opt" android:defaultValue="true"/>
+        <CheckBoxPreference android:key="sound_opt" android:summary="배경음악 켬/끔" android:title="배경음악 설정" android:defaultValue="true"/>
+        <CheckBoxPreference android:key="effect_opt" android:title="효과음 설정" android:summary="효과음 켬/끔" android:defaultValue="true"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="싱글 모드 기본 설정">
+        <ListPreference android:title="볼 개수 설정" android:key="ball_cnt" android:defaultValue="3" android:entries="@array/ball_opt" android:entryValues="@array/ball_opt"/>
+        <EditTextPreference android:key="time_opt" android:defaultValue="20" android:title="시간 제한"/>
+        <EditTextPreference android:key="round_opt" android:title="게임 라운드" android:defaultValue="9"/>
+    </PreferenceCategory>
+    
+
+</PreferenceScreen>

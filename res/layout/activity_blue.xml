@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BlueActivity"
+    android:orientation="vertical"
+    android:background="#666666" >
+
+    <TextView
+        android:id="@+id/conn_txt1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:background="#cccccc"
+        android:text="대전 상대 선택" />
+
+    <ListView
+        android:id="@+id/conn_list"
+        android:layout_width="fill_parent"
+        android:layout_height="0px"
+        android:background="#ffffff"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/find_device"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="디바이스 찾기" />
+    
+    <Button
+        android:id="@+id/notify_device"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="내 디바이스 알림" />
+
+</LinearLayout>

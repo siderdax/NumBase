@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="kyi.numbase"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ball"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="kyi.numbase.menus.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="kyi.numbase.menus.RecordActivity"
+            android:label="@string/title_activity_record"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="kyi.numbase.menus.GSelectActivity"
+            android:label="@string/title_activity_gselect"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent" >
+        </activity>
+        <activity android:name="kyi.numbase.menus.OptionActivity" >
+        </activity>
+        <activity android:name="kyi.numbase.menus.StatActivity" android:label="@string/title_activity_stat">
+        </activity><activity
+            android:name="kyi.numbase.plays.BattleActivity"
+            android:label="@string/title_activity_game"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="kyi.numbase.plays.TutorialActivity"
+            android:label="@string/title_activity_tutorial"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name="kyi.numbase.gears.ActivityController" >
+        </activity>
+        <activity
+            android:name="kyi.numbase.gears.BlueActivity"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        
+    </application>
+
+</manifest>

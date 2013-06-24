@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/hd_baseball_bg" >
+
+    <Button
+        android:id="@+id/record"
+        android:layout_width="230dp"
+        android:textSize="25sp"
+        android:layout_height="77dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:text=""
+        android:background="@drawable/imgbtn_record" />
+
+    <Button
+        android:id="@+id/g_start"
+        android:layout_width="230dp"
+        android:layout_height="77dp"
+        android:textSize="25sp"
+        android:layout_above="@id/record"
+        android:layout_alignLeft="@id/record"
+        android:text=""
+        android:background="@drawable/imgbtn_start" />
+    
+    <Button
+        android:id="@+id/option"
+        android:layout_width="230dp"
+        android:layout_height="77dp"
+        android:layout_alignLeft="@id/record"
+        android:layout_below="@id/record"
+        android:layout_centerVertical="true"
+        android:background="@drawable/imgbtn_option"
+        android:text=""
+        android:textSize="25sp" />
+
+    <RelativeLayout
+        android:id="@+id/main_title_rl"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#d0000000" >
+
+        <TextView
+            android:id="@+id/att_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/att"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/att_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/touch"
+            android:textSize="24sp"
+            android:layout_below="@id/att_title"
+            android:layout_centerHorizontal="true"
+            android:textColor="#FFFFFF" />
+    </RelativeLayout>
+</RelativeLayout>

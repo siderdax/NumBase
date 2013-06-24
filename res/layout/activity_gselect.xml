@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GSelectActivity"
+    android:background="#A0001020" >
+
+    
+    <TextView
+        android:id="@+id/blank1"
+        android:layout_width="230dp"
+        android:layout_height="25dp"
+        android:layout_centerInParent="true"
+        android:text="" />
+    
+    <Button
+        android:id="@+id/go_battle"
+        android:layout_width="230dp"
+        android:layout_height="77dp"
+        android:textSize="35sp"
+        android:layout_above="@id/blank1"
+        android:layout_alignLeft="@id/blank1"
+        android:layout_marginBottom="25dp"
+        android:text=""
+        android:background="@drawable/imgbtn_battle" />
+    
+    <Button
+        android:id="@+id/excer"
+        android:layout_width="230dp"
+        android:layout_height="77dp"
+        android:textSize="35sp"
+        android:layout_below="@id/go_battle"
+        android:layout_marginTop="25dp"
+        android:layout_alignLeft="@id/blank1"
+        android:text=""
+        android:background="@drawable/imgbtn_single" />
+
+</RelativeLayout>

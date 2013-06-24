@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">진격의 숫자야구</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello!</string>
+    <string name="title_activity_record">현재 기록</string>
+    <string name="title_activity_gselect">게임모드를 선택하세요.</string>
+    <string name="title_activity_blue">블루투스 연결</string>
+    <string name="title_activity_game">숫자야구 대전</string>
+    <string name="title_activity_tutorial">숫자 야구</string>
+    <string name="histotxt">전광판 - X회초</string>
+    <string name="swingnum">Swing-number</string>
+    <string name="bar">-</string>
+    <string name="strike">S : </string>
+    <string name="ball">B : </string>
+
+    <string-array name="ball_opt">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+
+    <string name="single_record">최고 싱글 기록 : 9999초</string>
+    <string name="multi_record">대전 전적 : x승, x패</string>
+    <string name="n1">1</string>
+    <string name="n2">2</string>
+    <string name="n3">3</string>
+    <string name="n4">4</string>
+    <string name="n5">5</string>
+    <string name="n6">6</string>
+    <string name="n7">7</string>
+    <string name="n8">8</string>
+    <string name="n9">9</string>
+    <string name="title_activity_stat">세부 전적</string>
+    <string name="touch">Touch to Play</string>
+
+</resources>
